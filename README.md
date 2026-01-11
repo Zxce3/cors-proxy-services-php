@@ -4,8 +4,9 @@ This is a simple PHP-based CORS proxy service running on Nginx. It allows web ap
 
 ## Setup
 
-1.  **Prerequisites**: Ensure you have Docker and Docker Compose installed.
-2.  **Start the service**:
+1. **Prerequisites**: Ensure you have Docker and Docker Compose installed.
+2. **Start the service**:
+
     ```bash
     docker-compose up -d
     ```
@@ -16,7 +17,7 @@ The service will be available at `http://localhost:8080`.
 
 To use the proxy, append the target URL to the `url` query parameter:
 
-```
+```plain
 http://localhost:8080/?url=https://example.com/api/data.json
 ```
 
